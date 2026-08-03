@@ -1,12 +1,16 @@
-module adder(input [7:0]in1,	
-input [7:0]in2,
-input bit reset,
-input bit clk,
-output reg[8:0]out);
-always@(posedge clk or posedge reset) begin
-if (reset)
-out <= 0;
-else 
-out <= in1 + in2;
+module full_adder(
+   input  logic [2:0] a,b,
+   input  logic c_in,
+   input  logic clock,
+   output logic [3:0] out
+);
+
+logic [2:0] sum;
+logic carry;
+
+always @(posedge clock) begin
+   {carry,sum} = a+b+c_in;
+   out <= {carry,sum};
 end
+
 endmodule

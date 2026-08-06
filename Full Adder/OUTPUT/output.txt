@@ -1,0 +1,212 @@
+ run -all
+# ====================
+# from driver
+#  a=4
+#  b=5
+#  c_in=1
+#  out=10
+# from monitor
+#  a=4
+#  b=5
+#  c_in=1
+#  out=10
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=4
+#  b=5
+#  c_in=1
+#  out=10
+# ===================
+# ===================
+# from driver
+#  a=3
+#  b=6
+#  c_in=1
+#  out=10
+# from monitor
+#  a=3
+#  b=6
+#  c_in=1
+#  out=10
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=3
+#  b=6
+#  c_in=1
+#  out=10
+# ===================
+# ===================
+# from driver
+#  a=4
+#  b=6
+#  c_in=0
+#  out=10
+# from monitor
+#  a=4
+#  b=6
+#  c_in=0
+#  out=10
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=4
+#  b=6
+#  c_in=0
+#  out=10
+# ===================
+# ===================
+# from driver
+#  a=1
+#  b=6
+#  c_in=1
+#  out=8
+# from monitor
+#  a=1
+#  b=6
+#  c_in=1
+#  out=8
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=1
+#  b=6
+#  c_in=1
+#  out=8
+# ===================
+# ===================
+# from driver
+#  a=3
+#  b=0
+#  c_in=1
+#  out=4
+# from monitor
+#  a=3
+#  b=0
+#  c_in=1
+#  out=4
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=3
+#  b=0
+#  c_in=1
+#  out=4
+# ===================
+# ===================
+# from driver
+#  a=0
+#  b=2
+#  c_in=0
+#  out=2
+# from monitor
+#  a=0
+#  b=2
+#  c_in=0
+#  out=2
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=0
+#  b=2
+#  c_in=0
+#  out=2
+# ===================
+# ===================
+# from driver
+#  a=7
+#  b=7
+#  c_in=0
+#  out=14
+# from monitor
+#  a=7
+#  b=7
+#  c_in=0
+#  out=14
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=7
+#  b=7
+#  c_in=0
+#  out=14
+# ===================
+# ===================
+# from driver
+#  a=2
+#  b=2
+#  c_in=0
+#  out=4
+# from monitor
+#  a=2
+#  b=2
+#  c_in=0
+#  out=4
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=2
+#  b=2
+#  c_in=0
+#  out=4
+# ===================
+# ===================
+# from driver
+#  a=7
+#  b=5
+#  c_in=1
+#  out=13
+# from monitor
+#  a=7
+#  b=5
+#  c_in=1
+#  out=13
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=7
+#  b=5
+#  c_in=1
+#  out=13
+# ===================
+# ===================
+# from driver
+#  a=2
+#  b=6
+#  c_in=0
+#  out=8
+# from monitor
+#  a=2
+#  b=6
+#  c_in=0
+#  out=8
+# ==================
+# Result is expected
+# ==================
+# from scoreboard
+#  a=2
+#  b=6
+#  c_in=0
+#  out=8
+# ===================
+# ** Note: $finish    : environment.sv(46)
+#    Time: 300 ns  Iteration: 1  Instance: /top/t1
+# End time: 21:53:59 on Aug 03,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+End time: 21:53:59 on Aug 03,2026, Elapsed time: 0:00:03
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   0, Warnings:   0
+    vopt: Errors:   0, Warnings:   0
+    vsim: Errors:   0, Warnings:   0
+  Totals: Errors:   0, Warnings:   0
